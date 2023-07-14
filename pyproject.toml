@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "myshopecommerce"
+version = "0.1.0"
+description = ""
+authors = ["alfmorais <alfredneto@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.2.3"
+Pillow = "10.0.0"
+ipdb = "^0.13.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
